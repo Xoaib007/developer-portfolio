@@ -1,0 +1,50 @@
+#orange{
+    color: rgb(180, 33, 180);
+    font-size: 80px;
+}
+section{
+    display: flex;
+    padding-top: 0px;
+    background-image: url(images/banner1.jpg);
+    background-repeat: no-repeat;
+}
+.s1{
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.s1 img{
+    width: 80%;
+    padding-left: 40px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+#header{
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 60px;
+}
+#p1{
+    font-size: 20px;
+    text-align: justify;
+}
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    margin: 0px;
+}
+.h2{
+    font-size: 40px;
+}
+.button1{
+    text-decoration: none;
+    background-color: lightskyblue;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 7px;
+    margin-left: 300px;  
+    margin-top: 20px;
+    border-style: double;
+    border: 10px;
+}
