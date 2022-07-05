@@ -2,22 +2,33 @@
     color: rgb(180, 33, 180);
     font-size: 80px;
 }
-section{
+#first-page{
     display: flex;
     padding-top: 0px;
-    background-image: url(images/banner1.jpg);
-    background-repeat: no-repeat;
+    padding-bottom: 0px;
+}
+#second-page{
+    display: flex;
+    padding-top: 0px;
 }
 .s1{
     width: 50%;
     padding-top: 100px;
     padding-left: 50px;
 }
-.s1 img{
-    width: 80%;
-    padding-left: 40px;
+.s2{
+    width: 50%;
     padding-top: 0px;
-    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.s1 img{
+    width: 60%;
+}
+.s2 img{
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 200px;
     padding-right: 50px;
 }
 #header{
@@ -28,6 +39,12 @@ section{
 #p1{
     font-size: 20px;
     text-align: justify;
+}
+#p2{
+    padding-right: 100px;
+    padding-top: 200px;
+    border: 20px;
+    background-color: lightblue;
 }
 body{
     font-family: 'Anton', sans-serif;
